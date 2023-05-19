@@ -1,0 +1,73 @@
+#container--carousel--rutas{
+    background-image: url('https://turismoantioquia.travel/wp-content/uploads/2021/09/Fondo-Aventura.jpeg');
+    background-position: center;
+    width: 100%;
+    height: 250px;
+    margin-top: 130px;
+}
+
+.cards--svg{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    margin-top: -100px;
+    background-color: #fff;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    height: fit-content;
+    width: fit-content;
+}
+
+.card--basic{
+    margin: 2rem 1.5rem 1.5rem 1rem;
+    cursor: pointer;
+}
+
+.card--basic h4{
+    color: #009a8b;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.card--basic:hover h4{
+    color: #00c6ad;
+}
+
+.svg-icons{
+    width: 55px;
+    height: 55px;
+    margin-bottom: 1rem;
+}
+
+/* styles splide js */
+#container--splide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    margin-top: -350px;
+}
+.splide {
+    width: 50%;
+}
+.splide__slide{
+    padding-right: 2rem;
+}
+.splide__arrow--prev {
+    left: -3em;
+}
+.splide__arrow--next {
+    right: -3em;
+}
+.splide img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}

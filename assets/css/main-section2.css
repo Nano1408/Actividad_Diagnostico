@@ -1,0 +1,36 @@
+#container--magia{
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.title{
+    text-align: center;
+    color: #009A8B;
+    font-family: "Oswald", Sans-serif;
+    font-size: 40px;
+    font-weight: normal;
+}
+
+.element--divider{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.element--divider .element--divider--separator {
+    border-style: solid;
+    color: #009A8B;
+    border-top-width: 0.5px;
+    border-right-width: 58px;
+    font-size: .1px;
+}
+
+.description--parrafo{
+    text-align: center;
+    margin: -1px 100px -15px 100px;
+}
+.description--parrafo p{
+    font-family: "Open Sans", Sans-serif;
+    font-weight: 400;
+    color: #656565;
+}

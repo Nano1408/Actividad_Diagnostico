@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container--header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3B5240;
+    padding: 1.125rem 1.5rem;
+}
+#container_ul{
+    display: flex;
+    padding-left: 2rem;
+    margin: 0;
+}
+
+ul li{
+    color: #fff;
+    list-style: none;
+    font-size: 1.125rem;
+}
+
+.items--header:nth-child(3){
+    margin-right: 1rem;
+}
+
+.bi.bi-caret-down{
+    color: #ffff;
+    vertical-align: middle;
+    font-size: 1.255rem;
+    cursor: pointer;
+}
+
+.btn--queHacer{
+    color: #fff;
+    font-size: 1.125rem;
+    background: none;
+    border: none;
+    padding: 0 0 0 1rem;
+    cursor: pointer;
+}
+.desplegable_li{
+    padding: 0 1.1rem;
+    position: relative;
+}
+.dropdown_queHacer{
+    display: block;
+    position: absolute;
+    top:-400px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    width: 250px;
+    background-color: #3B5240;
+    padding: 1rem 2rem;
+    margin-left: -2rem;
+}
+.dropdown_queHacer .items--queHacer{
+    margin: 1rem 0;
+    cursor: pointer;
+}
+.desplegable_li:hover .dropdown_queHacer{
+    display: block;
+    top:1.7rem;
+    transition: .3s;
+}
+
+
+.bi{
+    vertical-align: middle;
+    color: #787878;
+    cursor: pointer;
+}
+.container--search{
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 20px;
+    min-height: 2rem;
+    padding: 0rem .5rem 0 0;
+}
+.container--search input{
+    background: none;
+    border: none;
+    padding: 0.25rem 1rem;
+    border-radius: 20px;
+}
+.container--search input{
+    height: 1.8vw;
+}
+input:focus{
+    outline: none;
+}

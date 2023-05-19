@@ -1,0 +1,104 @@
+.carousel-control-next-icon, 
+.carousel-control-prev-icon {
+    filter: grayscale(2) !important;
+    -webkit-filter: grayscale(2) !important;
+}
+
+.carousel-dark .carousel-indicators [data-bs-target] {
+    background-color: #fff;
+}
+
+.carousel-caption{
+    padding: 1.5rem 0;
+    background-color: #20202089;
+}
+
+.leerArticulo {
+    color: #81BB00;
+    background-color: #fff;
+    border: none;
+    border-radius: 30px;
+    padding: .6rem 1.2rem;
+}
+
+.carousel-caption h5{
+    color: #CBE900;
+    font-size: 30px;
+}
+.carousel-caption p{
+    color: #fff;
+    font-size: 16px;
+}
+
+.carousel-item:nth-child(1) {
+    background-image: url('https://turismoantioquia.travel/wp-content/uploads/2023/04/Banner-web-1600x900-Bogota_Mesa-de-trabajo-1-2.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 30vw;
+    z-index: -1;
+}
+.carousel-item:nth-child(2) {
+    background-image: url('https://turismoantioquia.travel/wp-content/uploads/2023/03/Banner-Blog-Barbosa_Mesa-de-trabajo-1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 30vw;
+    z-index: -1;
+}
+.carousel-item:nth-child(3) {
+    background-image: url('https://turismoantioquia.travel/wp-content/uploads/2023/04/Banner-web-1600x900-Rappel_Mesa-de-trabajo-1.png');
+    background-size: cover;
+    background-position: center;
+    height: 30vw;
+    z-index: -1;
+}
+
+.carousel-item img{
+    background-size: cover;
+    max-height: 530px;
+}
+
+@media screen and (max-width:1200px) {
+    .carousel-item:nth-child(1) {
+        height: 40vw;
+    }
+    .carousel-item:nth-child(2) {
+        height: 40vw;
+    }
+    .carousel-item:nth-child(3) {
+        height: 40vw;
+    }
+
+    .carousel-caption{
+        padding: 1rem 0;
+    }
+    .carousel-caption h5{
+        font-size: 25px;
+    }
+    .carousel-caption p{
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .carousel-item:nth-child(1) {
+        height: 60vw;
+    }
+    .carousel-item:nth-child(2) {
+        height: 60vw;
+    }
+    .carousel-item:nth-child(3) {
+        height: 60vw;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .carousel-item:nth-child(1) {
+        height: 100vw;
+    }
+    .carousel-item:nth-child(2) {
+        height: 100vw;
+    }
+    .carousel-item:nth-child(3) {
+        height: 100vw;
+    }
+}
