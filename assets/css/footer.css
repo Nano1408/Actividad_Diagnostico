@@ -1,0 +1,58 @@
+footer{
+    margin: 0 auto;
+    margin-top: 300px;
+    background-color: #3b5239;
+    padding: 30px 50px;
+}
+
+#logo--footer{
+    display: flex;
+    justify-content:space-around;
+}
+
+.container--ul--social {
+    display: flex;
+    margin-top: 1rem;
+    padding: 0;
+}
+
+.container--ul--social .items--social{
+    margin-right: 1rem;
+}
+
+.container--ul--social .items--social .bi{
+    color: #3b5239;
+    background-color: #ffffff;
+    border-radius: 50%;
+    padding: .5rem;
+}
+
+/* footer list items */
+.category--ul {
+    padding: 0rem 4rem 0 4rem;
+}
+
+.category--ul h2 {
+    color: #cbe900;
+    font-size: 18px;
+    margin-bottom: 1.5rem;
+}
+
+.items--category--li{
+    color: #cacaca;
+    font-size: 15px;
+    margin-bottom: .7rem;
+    font-family: sans-serif;
+}
+
+.icons--gobierno .icons img{
+    width: 200px;
+    height: 70px;
+}
+
+.description--nosotroa p {
+    width: 200px;
+    margin-top: 2rem;
+    color: #ffffff;
+    font-size: 1rem;
+}

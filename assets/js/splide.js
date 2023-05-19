@@ -1,7 +1,5 @@
-var splide = new Splide( '.splide', {
-    perPage: 3,
-    focus  : 0,
-    omitEnd: true,
-  } );
-  
-  splide.mount();
+new Splide('.splide', {
+  perPage: 3,
+  perMove: 1,
+  padding: { left: '1rem', right: '2rem' }
+}).mount();

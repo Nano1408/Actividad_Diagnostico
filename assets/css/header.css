@@ -59,12 +59,12 @@ ul li{
     margin-left: -2rem;
 }
 .dropdown_queHacer .items--queHacer{
-    margin: 1rem 0;
+    margin: 0rem 0rem 1rem 0;
     cursor: pointer;
 }
 .desplegable_li:hover .dropdown_queHacer{
     display: block;
-    top:1.7rem;
+    top: 1.3rem;
     transition: .3s;
 }
 
